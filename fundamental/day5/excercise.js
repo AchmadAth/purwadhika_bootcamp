@@ -144,7 +144,7 @@ function findArrayDifference(arr1, arr2) {
 
 console.log('##### NO 12 #####');
 function secondsmallest(arr) {
-    arr.sort()
+    arr.sort((a,b)=> a-b)[1]
     return arr[1]
 }
 
@@ -169,8 +169,12 @@ function sumNumbersInArray(arr) {
   console.log(totalSum); // Output: 6 (1 + 2 + 3)
   
 console.log('##### NO 14 #####');
-
-
+const sumDuplicate = (...numbers) => 
+  numbers
+    .sort((a,b)=>a-b)
+    .filter((val,i)=> val == numbers[i+1]|| val ==numbers[i-1])
+    .reduce((sum,val)=> sum+val,0)
+console.log(sumDuplicate(10,20,40,10,50,30,10,60,10));
 console.log('##### NO 15 #####');
 
 function jankenpon(pilihan) {
