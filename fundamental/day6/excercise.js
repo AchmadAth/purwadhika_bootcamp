@@ -73,3 +73,10 @@ const students = [
   
   const result = calculateStudentData(students);
   console.log(result);
+
+class Product {
+    constructor(name,price) {
+        this.name = name
+        this.price = price
+    }
+}
