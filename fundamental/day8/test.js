@@ -1,3 +1,3 @@
-a = Math.random(100)*2
-
+a = Math.floor(Math.random()*2
+)
 console.log(a);
