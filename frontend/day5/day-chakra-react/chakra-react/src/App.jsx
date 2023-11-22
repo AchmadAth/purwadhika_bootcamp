@@ -25,53 +25,67 @@ function App() {
         </Box>
         <Box>
           <Center>
-            <Checkbox padding={"10px"}></Checkbox>
+            <Checkbox padding={"10px"} colorScheme={"green"}></Checkbox>
             <Text padding={"10px"} paddingRight={"25px"} color={"white"}>
               Create Guest Experience mobile check-in
             </Text>
-            <DeleteIcon color={"red"} />
+            <Button>
+              <DeleteIcon color={"red"} />
+            </Button>
           </Center>
           <Center>
             <Checkbox padding={"10px"}></Checkbox>
             <Text padding={"10px"} paddingRight={"25px"} color={"white"}>
               Create Guest Experience mobile check-in
             </Text>
-            <DeleteIcon color={"red"} />
+            <Button>
+              <DeleteIcon color={"red"} />
+            </Button>
           </Center>
           <Center>
             <Checkbox padding={"10px"}></Checkbox>
             <Text padding={"10px"} paddingRight={"25px"} color={"white"}>
               Create Guest Experience mobile check-in
             </Text>
-            <DeleteIcon color={"red"} />
+            <Button>
+              <DeleteIcon color={"red"} />
+            </Button>
           </Center>
           <Center>
             <Checkbox padding={"10px"}></Checkbox>
             <Text padding={"10px"} paddingRight={"25px"} color={"white"}>
               Create Guest Experience mobile check-in
             </Text>
-            <DeleteIcon color={"red"} />
+            <Button>
+              <DeleteIcon color={"red"} />
+            </Button>
           </Center>
           <Center>
             <Checkbox padding={"10px"}></Checkbox>
             <Text padding={"10px"} paddingRight={"25px"} color={"white"}>
               Create Guest Experience mobile check-in
             </Text>
-            <DeleteIcon color={"red"} />
+            <Button>
+              <DeleteIcon color={"red"} />
+            </Button>
           </Center>
           <Center>
             <Checkbox padding={"10px"}></Checkbox>
             <Text padding={"10px"} paddingRight={"25px"} color={"white"}>
               Create Guest Experience mobile check-in
             </Text>
-            <DeleteIcon color={"red"} />
+            <Button>
+              <DeleteIcon color={"red"} />
+            </Button>
           </Center>
           <Center>
             <Checkbox padding={"10px"}></Checkbox>
             <Text padding={"10px"} paddingRight={"25px"} color={"white"}>
               Create Guest Experience mobile check-in
             </Text>
-            <DeleteIcon color={"red"} />
+            <Button>
+              <DeleteIcon color={"red"} />
+            </Button>
           </Center>
           <Divider orientation="horizontal" />
           <Center>
